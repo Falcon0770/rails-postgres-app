@@ -21,7 +21,7 @@ spec:
         - name: POSTGRES_DB
           value: "rails_dev"
         - name: POSTGRES_USER
-          value: "koushik"
+          value: "shreyansh"
         - name: POSTGRES_PASSWORD
           value: "123456789"
         - name: POSTGRES_HOST

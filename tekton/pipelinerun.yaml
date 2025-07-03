@@ -22,6 +22,6 @@ spec:
       secretName: docker-credentials
   params:
   - name: repo-url
-    value: https://github.com/KoushikReddy24/rails-postgres-app.git
+    value: https://github.com/Falcon0770/rails-postgres-app.git
   - name: image-reference
-    value: index.docker.io/koushikreddy24/sample-project
+    value: index.docker.io/shreyansh0770/rails-app

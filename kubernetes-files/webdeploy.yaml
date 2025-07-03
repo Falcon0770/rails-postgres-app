@@ -16,12 +16,12 @@ spec:
     spec:
       containers:
       - name: rails-app
-        image: koushikreddy24/rubyrailsapp:latest
+        image: shreyansh0770/rails-app:latest
         env:
         - name: DB_HOST
           value: "postgres"
         - name: DB_USER
-          value: "koushik"
+          value: "shreyansh"
         - name: DB_PASSWORD
           value: "123456789"
         - name: DB_NAME

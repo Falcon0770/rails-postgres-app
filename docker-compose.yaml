@@ -13,13 +13,13 @@ services:
       - "5433:5432"
     
     environment:
-      - POSTGRES_USER=koushik
+      - POSTGRES_USER=shreyansh
       - POSTGRES_PASSWORD=123456789
       - POSTGRES_DB=rails_dev
       # - POSTGRES_HOST=postgres
 
   web:
-    image: koushikreddy24/rubyrailsapp:latest
+    build: .
 
     volumes:
       - .:/app
@@ -32,7 +32,7 @@ services:
     
     environment:
       DB_NAME: rails_dev
-      DB_USER: koushik
+      DB_USER: shreyansh
       DB_PASSWORD: 123456789
       DB_HOST: postgres
 
